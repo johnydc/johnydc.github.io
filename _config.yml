@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title:
+email: delajona@msu.edu
+author: johnydc
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -188,6 +188,7 @@ yat:
 #   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
 #   image_width: 38.2%      # Image default width
 #   image_height: 160px     # Image default height
+theme: jekyll-theme-yat
 #   text_size: 350          # Words default size
 
 # Pagination setting
