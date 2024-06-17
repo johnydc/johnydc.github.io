@@ -30,8 +30,8 @@ author: johnydc
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
-# * current year: {currentYear}
-# * author: {author} (Value is the same as site.author)
+# * current year: {2024}
+# * author: {Jonathan Dela Cruz} (Value is the same as site.author)
 # * copyright: (c) - ©
 # * copyleft: (cleft)
 # * sound recording copyright: (p) - ℗
