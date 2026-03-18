@@ -6,8 +6,6 @@
 # After editing, run:  uv run python build.py
 # ============================================================
 
-# TEST REDEPLOY
-
 # --- Student profile ---
 # Point this to your profile file inside content/
 student_file: content/profile.yaml
