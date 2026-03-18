@@ -1,0 +1,24 @@
+# ============================================================
+# content/example_student.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Jonathan Dela Cruz"
+tagline: "Aspiring Data Scientist | Machine Learning | Python | Critical Thinking"
+
+about: |
+  I'm a recent MSU data science graduate passionate in solving real-world problems through data analysis. 
+  Throughout my time at MSU, I have built end-to-end pipelines with Python and Git to answer questions in 
+  regards to everyday problems. I'm seeking data analyst or data scientist roles that will utilize my 
+  critical thinking skills to create solutions within the community.
+
+  _This example portfolio was inspired by Zeke IV, who passed in March of 2026.
+  He played the role of Zeke the Wonder Dog for a decade._
+
+# Contact information — remove any fields you prefer not to share
+email: "delajona@msu.edu"
+phone: "(734)-664-1743"
+github: "https://github.com/johnydc"

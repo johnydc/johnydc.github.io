@@ -97,7 +97,7 @@ def build() -> None:
             print(f"  [warn] Project file not found, skipping: {rel}")
             continue
         projects.append(load_yaml(p))
-        print(f"       project: {p.name}")
+        print(f"      project: {p.name}")
 
     print(f"[3/4] Loaded {len(projects)} project(s).")
 
