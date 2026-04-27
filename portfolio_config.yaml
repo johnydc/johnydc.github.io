@@ -17,6 +17,7 @@ projects:
   - content/projects/example_project_1.yaml
   - content/projects/example_project_2.yaml
   - content/projects/example_project_3.yaml
+  - content/projects/example_project_4.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
