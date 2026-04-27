@@ -70,6 +70,8 @@ Open `content/my_profile.yaml` and fill in:
 | --- | --- |
 | `name` | Your full name |
 | `tagline` | One-line description of your focus (e.g. "Data Scientist \| Healthcare Analytics") |
+| `header_image` | Optional profile image path (e.g. `img/headshot.jpg`) placed in `static/img/` |
+| `header_image_alt` | Optional accessibility alt text for your header image |
 | `about` | One or more paragraphs about you — supports Markdown (see below) |
 | `email` | Your email address (or remove the line to hide it) |
 | `linkedin` | Your LinkedIn profile URL *(optional — remove the line to hide it)* |

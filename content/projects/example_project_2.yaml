@@ -1,31 +1,62 @@
 # ============================================================
-# content/projects/example_project_2.yaml
+# content/projects/example_project_3.yaml
 # ============================================================
 # Example project: Crowd Cheer Analysis at Spartan Football Games
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: ""
+title: "AWS Cloud Computing"
 
 short_summary: >
-  SUMMARY HERE
+  I was able to access Amazon Web Services through a course I took at Michigan State University. 
+  Throughout that time, I explored the different services offered by AWS, and the overall 
+  architecture of the cloud. Additionally, I learned the benefits and drawbacks of using cloud 
+  computing. This project aims to demonstrates my basic understanding of AWS and cloud computing, 
+  as well as to compare the benefits and drawbacks of using cloud computing for machine learning 
+  tasks.
 
 tech_stack:
-  - Python
-  - pandas
-  - seaborn
-  - Plotly
+  - Amazon Web Services (AWS)
   - Jupyter Notebooks
+  - Python
+  - Plotly
+  - Sagemaker AI
+  - Linear Learner Algorithm
+  - S3 Buckets
+  - boto3
+  - io
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  
 
 problem_statement: >
-  TEXT HERE
+  How much will cloud computing help with machine learning tasks? It is no secret that cloud computing 
+  is computationally intensive; but with that being said, it can also provide significant advantages. 
+  What are the benefits and drawbacks of using cloud computing for machine learning tasks? 
 
 approach: >
-  TEXT HERE
+  I had the opportunity to work with AWS Sagemaker AI, which is a powerful tool for 
+  building, training, and deploying machine learning models at scale. I used Sagemaker to train a 
+  linear learner model on the NYC 311 dataset, which contains information about non-emergency 
+  service requests in New York City. The goal of the project was to predict the likelihood of a 
+  service request being closed within a certain time frame based on various features such as the 
+  type of request, location, and time of day. Through this project, I gained hands-on experience 
+  with AWS Sagemaker and learned how to leverage cloud computing for machine learning tasks. This
+  projected explored the balance between the benefits of cloud computing, such as scalability and
+  flexibility, and the drawbacks, such as cost and unnecessary complexity for smaller projects.
 
 results_impact: >
-  TEXT HERE
+  In the end, I was able to successfully train a linear learner model on the NYC 311 dataset using 
+  AWS Sagemaker. The model was then compared to a simple logistic regression model trained on the same 
+  dataset using the sklearn library. The results achieved by both models were similar across various 
+  evaluation metrics, such as accuracy and F1 score. Given the lower complexity of this problem and 
+  the minimal improvements achieved with SageMaker, it appears unnecessary to implement a SageMaker 
+  workflow for this problem, considering the additional cost and complexity it introduces. However, for 
+  larger and more complex problems, the benefits of cloud computing may outweigh the drawbacks, making 
+  it a valuable tool for machine learning tasks.
 
-repo_url: ""
-notebook_url: ""
-image_path: "img/placeholder_project_2.png"
+repo_url: "https://github.com/johnydc/aws-nyc311-delajona.git"
+notebook_url: "https://github.com/johnydc/aws-nyc311-delajona/blob/main/notebooks/stakeholder_question01_linear_learner-STUDENT.ipynb"
+image_path: "img/cloud_computing.png"

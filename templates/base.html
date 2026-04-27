@@ -6,18 +6,29 @@
   <title>{{ site_title }}</title>
 
   <!-- Base styles always loaded -->
-  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/base.css?v={{ asset_version }}" />
 
   <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
-  <link rel="stylesheet" href="css/themes/{{ theme }}.css" />
+  <link rel="stylesheet" href="css/themes/{{ theme }}.css?v={{ asset_version }}" />
 </head>
 <body>
 
   <!-- ===== Header ===== -->
   <header class="site-header">
-    <div class="header-inner">
-      <div class="header-name">{{ student.name }}</div>
-      <div class="header-tagline">{{ student.tagline }}</div>
+    <div class="header-inner{% if student.header_image %} header-with-photo{% endif %}">
+      {% if student.header_image %}
+      <div class="header-photo-wrapper">
+        <img
+          src="{{ student.header_image }}"
+          alt="{{ student.header_image_alt or student.name ~ ' profile photo' }}"
+          class="header-photo"
+        />
+      </div>
+      {% endif %}
+      <div class="header-text">
+        <div class="header-name">{{ student.name }}</div>
+        <div class="header-tagline">{{ student.tagline }}</div>
+      </div>
     </div>
 
     <!-- Navigation bar -->

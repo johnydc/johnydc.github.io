@@ -17,6 +17,7 @@ to preview the site locally.
 
 import shutil
 import sys
+import time
 from pathlib import Path
 
 import markdown
@@ -115,6 +116,7 @@ def build() -> None:
         theme=theme,
         student=student,
         projects=projects,
+        asset_version=int(time.time()),
     )
 
     output_path = DOCS_DIR / "index.html"

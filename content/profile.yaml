@@ -8,6 +8,8 @@
 
 name: "Jonathan Dela Cruz"
 tagline: "Aspiring Data Scientist | Machine Learning | Python | Critical Thinking"
+header_image: "img/Michigan_State_University_seal.png"
+header_image_alt: "Michigan State University"
 
 about: |
   I'm a recent MSU data science graduate passionate in solving real-world problems through data analysis. 
@@ -15,9 +17,7 @@ about: |
   regards to everyday problems. I'm seeking data analyst or data scientist roles that will utilize my 
   critical thinking skills to create solutions within the community.
 
-  _disclaimer or additional information_
-
 # Contact information — remove any fields you prefer not to share
 email: "delajona@msu.edu"
-phone: "(734)-664-1743"
 github: "https://github.com/johnydc"
+phone: "(734)-664-1743"

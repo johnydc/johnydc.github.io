@@ -1,0 +1,65 @@
+# ============================================================
+# content/projects/example_project_2.yaml
+# ============================================================
+# Example project: Crowd Cheer Analysis at Spartan Football Games
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "Tracking Activity in Older Adults Using Machine Learning"
+
+short_summary: >
+  According to the 2023 U.S. Census Bureau, about 28% of people 65 and older live by themselves.
+  While this may seem common, it raises concerns regarding the safety and security of older adults
+  who might not receive regular supervision. Physical strength and mobility naturally decline with
+  age, making daily tasks more difficult. These changes can be subtle and often go unnoticed without
+  regular monitoring. This project aims to address this issue by taking motion data from a batteryless
+  motion sensor attached to an older adult and attempting to classify their daily activities. I plan
+  to build a Recurrent Neural Network (RNN) model that takes in the time series data and outputs
+  the corresponding activity. By developing a model that can recognize and track activity patterns
+  in real time, monitoring the activity of older adults living independently becomes easier and more
+  convenient. The expected outcome is to build a machine learning model capable of doing this task
+  accurately, serving as a baseline system for healthcare providers and caregivers to detect unusual
+  activity patterns without being physically present.
+
+tech_stack:
+  - Python
+  - pandas
+  - seaborn
+  - Plotly
+  - Jupyter Notebooks
+
+problem_statement: >
+  A growing number of older adults are living by themselves. This creates potential risks if
+  the individual is not receiving regular supervision. The immediate concern of most caregivers
+  would be potential falls and injuries. Another concern is increased inactivity, which can
+  weaken the body over time. Healthcare providers and family members would benefit from
+  a system that monitors daily activities without having to be physically present. Currently,
+  doctors and family members receive information by scheduling appointments and hearing
+  from the individual. This raises a potential problem if the information shared is inaccurate.
+  Receiving additional unbiased data could be crucial in detecting lifestyle changes that might
+  otherwise go unnoticed.
+
+approach: >
+  Throughout this project, I was able to build an end-to-end machine learning pipeline that
+  provided valuable insights into the field of machine learning. I began with a basic logistic
+  regression model and progressed to a Long Short-Term Memory (LSTM) network capable
+  of processing sequential data and making predictions based on temporal patterns. This
+  progression highlighted the power and flexibility of deep learning models. The most effective
+  models were the Recurrent Neural Network (RNN) and the LSTM, due to their ability to
+  capture sequential dependencies.
+
+results_impact: >
+  The primary goal of this project was to successfully train
+  a sequential LSTM model and improve classifier performance. While this goal was largely
+  achieved, performance for class 4—corresponding to patient movement—did not improve as
+  much as expected.
+  Machine learning is a powerful tool, and when used correctly, can have profound effects.
+  There is so much that goes into machine learning development, so it is extremely important
+  to keep your workflow organized and methodical. This includes careful data preprocessing,
+  thoughtful feature selection, proper model selection, and rigorous evaluation. Addressing
+  each step thoroughly helps ensure that models are accurate, interpretable, and generalizable,
+  ultimately leading to more reliable and impactful results.
+
+repo_url: "https://github.com/johnydc/Activity-Tracker.git"
+notebook_url: "https://github.com/johnydc/Activity-Tracker/blob/main/notebooks/exploratory/modeling.ipynb"
+image_path: "img/activity_class_distribution.png"
