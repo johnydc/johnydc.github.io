@@ -8,6 +8,30 @@
   <div class="about-text">{{ student.about | safe }}</div>
 </section>
 
+<!-- ===== Relevant Coursework section ===== -->
+<section id="coursework" class="section coursework-section">
+  <h2>Relevant Coursework</h2>
+  {% if coursework %}
+  <div class="coursework-grid">
+    {% for course in coursework %}
+    <article class="coursework-card">
+      <div class="coursework-image-wrapper">
+        <img
+          src="{{ course.image_path }}"
+          alt="{{ course.title }}"
+          class="coursework-image"
+        />
+      </div>
+      <div class="coursework-body">
+        <h3 class="coursework-title">{{ course.title }}</h3>
+        <div class="coursework-description">{{ course.description | safe }}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
 <!-- ===== Projects section ===== -->
 <section id="projects" class="section projects-section">
   <h2>Projects</h2>

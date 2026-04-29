@@ -17,6 +17,18 @@ about: |
   regards to everyday problems. I'm seeking data analyst or data scientist roles that will utilize my 
   critical thinking skills to create solutions within the community.
 
+# Coursework entries — each with title, image, and description
+coursework:
+  - title: "CMSE495 Data Science Capstone"
+    image_path: "img/hfh.png"
+    description: |
+      ***Automated Video Segmentation***
+      <div class="coursework-divider">-----------------------</div>
+      Trained a Hidden Markov Model to automatically segment ultrasound videos into different phases of a
+      medical exam using Python and OpenCV. Worked alongside community partners at Henry Ford Health to
+      deliver actionable insights that could be used to improve the efficiency of the training process for
+      new medical professionals.
+
 # Contact information — remove any fields you prefer not to share
 email: "delajona@msu.edu"
 github: "https://github.com/johnydc"

@@ -88,6 +88,11 @@ def build() -> None:
     # standard Markdown syntax: blank lines for paragraphs, *italic*, **bold**, etc.
     if student.get("about"):
         student["about"] = markdown.markdown(student["about"])
+    # Process coursework descriptions (convert Markdown to HTML)
+    coursework = student.get("coursework", [])
+    for course in coursework:
+        if course.get("description"):
+            course["description"] = markdown.markdown(course["description"])
     print(f"[2/4] Loaded student: {student_path.name}  ({student.get('name', '?')})")
 
     # ── 3. Load project files ───────────────────────────────────────────
@@ -116,6 +121,7 @@ def build() -> None:
         theme=theme,
         student=student,
         projects=projects,
+        coursework=coursework,
         asset_version=int(time.time()),
     )
 
